@@ -3,7 +3,7 @@ import AddCategory from "./components/AddCategory";
 import GifGrid from "./components/GifGrid";
 
 const GifExpertApp = () => {
-  const [categories, setcategories] = useState([]);
+  const [categories, setcategories] = useState(["League of legends"]);
   return (
     <>
       <h2>GifExpertApp</h2>
